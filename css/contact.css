@@ -1,0 +1,30 @@
+.contact-container{
+    flex: 0, 1, 700px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+.screen{
+    position: relative;
+    background: #3e3e3e;
+    border-radius: 15px;
+  }
+
+.app-title{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #ea1d6f;
+    font-size: 26px;
+  }
+  
+.app-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100px;
+    height: 4px;
+    background: #ea1d6f;
+  }
