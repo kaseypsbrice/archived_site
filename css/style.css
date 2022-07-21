@@ -9,9 +9,7 @@
 .header{
   min-height: 100vh;
   width: 100%;
-  background-color: rgba(0,0,0,0.4);
-  background-image: url(../images/jeremy-bishop-rqWoB4LFgmc-unsplash.jpg);
-  background-blend-mode: color-burn;
+  background-image: url(../images/jeremy-bishop-rqWoB4LFgmc-unsplash.png);
   background-position: center;
   background-size: cover;
   position: relative;
