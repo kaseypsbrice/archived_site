@@ -191,12 +191,15 @@ button[type="submit"]:hover{
 
 .technical-nav{
   position: fixed;
-  left: 0;
+  float: left;
+  position: sticky;
+  text-align: center;
   width: 323px;
-  height: 100%;
+  min-height: 92vh;
   border: 1px solid white;
+  border-radius: 10px;
   background-color: grey;
-  padding-top: 60px;
+  padding: 10px;
   overflow-y: scroll;
 }
 
