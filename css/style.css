@@ -186,3 +186,44 @@ button[type="submit"]:hover{
     pointer-events: none;
   }
 }
+
+/* 42 Page: Wiki setup by creating a technical documentation page */
+
+.technical-nav{
+  position: fixed;
+  left: 0;
+  width: 323px;
+  height: 100%;
+  border: 1px solid white;
+  background-color: grey;
+  padding-top: 60px;
+  overflow-y: scroll;
+}
+
+.tech-nav-link{
+  padding: 3px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.deafult-container{
+  color: white;
+  margin: auto;
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-shadow: black 0px 0px 10px;
+}
+
+.deafult-container h1{
+  font-size: 58px;
+}
+
+.deafult-container p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: white;
+}
