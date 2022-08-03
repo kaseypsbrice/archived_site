@@ -39,6 +39,8 @@ nav .fa{
   display: none;
 }
 
+/* DRAFTED SIDE BAR WHEN MOBILE DEVICE 
+
 @media(max-width: 700px){
   .text-box h1{
     font-size: 20px;
@@ -57,6 +59,7 @@ nav .fa{
     z-index: 2;
   }
 }
+*/
 
 nav{
   display: flex;
@@ -189,18 +192,18 @@ button[type="submit"]:hover{
 
 /* 42 Page: Wiki setup by creating a technical documentation page */
 
+.page-template{
+  display: grid;
+  grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+  grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+}
+
 .technical-nav{
   position: fixed;
-  float: left;
-  position: sticky;
-  text-align: center;
-  width: 323px;
-  min-height: 92vh;
-  border: 1px solid white;
-  border-radius: 10px;
-  background-color: grey;
-  padding: 10px;
-  overflow-y: scroll;
+  grid-area: auto;
+  padding: 2cm;
+  border-right: 3px solid white;
+  height: 72vh;
 }
 
 .tech-nav-link{
@@ -211,9 +214,8 @@ button[type="submit"]:hover{
 }
 
 .deafult-container{
+  grid-column: 2 / span 2;
   color: white;
-  margin: auto;
-  padding-top: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
