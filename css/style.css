@@ -31,7 +31,7 @@
 }
 .text-box p{
   margin: 10px 0 40px;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -228,7 +228,9 @@ button[type="submit"]:hover{
 }
 
 .deafult-container p{
+  padding-top: 1cm;
   margin: 10px 0 40px;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.5em;
   color: white;
 }
