@@ -100,7 +100,7 @@ nav ul li:hover::after{
 }
 .logo img{
   float: left;
-  width: 50px;
+  width: 110px;
 }
 
 /* Contact Page Style Sheet */
@@ -237,3 +237,21 @@ a.tech-nav-link:hover{
   color: white;
 }
 
+/* Homepage Experiments */
+
+.experiment {
+  animation-duration: 3s;
+  animation-name: slidingtext;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidingtext {
+0% {
+  margin-top: 5%;
+  opacity: 0;
+}
+100% {
+  margin-top: 0%;
+  opacity: 1.0;
+}
+}
