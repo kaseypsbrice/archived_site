@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .header{
@@ -220,14 +220,13 @@ a.tech-nav-link:hover{
 .deafult-container{
   color: white;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   text-shadow: black 0px 0px 10px;
+  padding-left: 2cm;
 }
 
 .deafult-container h1{
-  font-size: 58px;
+  font-size: 50px;
 }
 
 .deafult-container p{
@@ -237,3 +236,4 @@ a.tech-nav-link:hover{
   line-height: 1.5em;
   color: white;
 }
+
